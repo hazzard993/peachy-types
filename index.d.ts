@@ -14,7 +14,7 @@ declare module "peachy" {
          * @param initialTag the name of the animation tag to use initially.
          * @returns the new peachy object.
          */
-        new: (dataFile: string | object | undefined, imageData?: Image, initialTag?: string) => import("./PeachyAnimationObject").PeachyAnimationObject;
+        new: (this: void, dataFile: string | object | undefined, imageData?: Image, initialTag?: string) => import("./PeachyAnimationObject").PeachyAnimationObject;
     };
 
     export = peachy;
