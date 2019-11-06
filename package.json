@@ -1,0 +1,10 @@
+{
+  "name": "peachy-types",
+  "version": "0.1.0",
+  "author": "hazzard993 <hazzard993@gmail.com>",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "dependencies": {
+    "love-typescript-definitions": "^0.17.0"
+  }
+}
