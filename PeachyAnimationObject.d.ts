@@ -73,10 +73,10 @@ export interface PeachyAnimationObject {
     /**
      * Provides width stored in the metadata of a current frame
      */
-    getWidth(): void;
+    getWidth(): number;
 
     /**
      * Provides height stored in the metadata of a current frame
      */
-    getHeight(): void;
+    getHeight(): number;
 }
