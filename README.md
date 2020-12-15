@@ -5,8 +5,19 @@ Declarations for [peachy](https://github.com/josh-perry/peachy), a parser/render
 Declarations can be used with [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua).
 
 ```sh
-yarn add --modules-folder node_modules/@types peachy-types love-typescript-definitions
+yarn add josh-perry/peachy
+# import the peachy module
+
+yarn add -D peachy-types
+# import typings for peachy (dev only)
 ```
+
+> Add this to your `conf.ts` to help Lua find the `peachy` module.
+> ```ts
+> package.path += ";node_modules/peachy/?.lua";
+> ```
+>
+> This should resolve to `peachy` and all its dependencies.
 
 ```ts
 /// <reference no-default-lib="true" />
