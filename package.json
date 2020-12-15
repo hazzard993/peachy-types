@@ -1,6 +1,6 @@
 {
   "name": "peachy-types",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "author": "hazzard993 <hazzard993@gmail.com>",
   "license": "MIT",
   "types": "index.d.ts",
